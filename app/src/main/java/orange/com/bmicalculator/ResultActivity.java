@@ -24,9 +24,9 @@ public class ResultActivity extends AppCompatActivity {
 
         Intent i= getIntent();
 
-        textIdealWeight.setText( i.getStringExtra("idealWeight"));
-        textLeanBodyMass.setText( i.getStringExtra("leanBodyMass"));
-        textPercentagePI.setText( i.getStringExtra("percentagePI"));
+        textIdealWeight.setText( i.getStringExtra("idealWeight")+ " KG");
+        textLeanBodyMass.setText( i.getStringExtra("leanBodyMass")+ " KG");
+        textPercentagePI.setText( i.getStringExtra("percentagePI") +" %");
         textObesity.setText( i.getStringExtra("obesity"));
     }
 }
