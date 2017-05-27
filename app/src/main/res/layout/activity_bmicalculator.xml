@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="48dp">
+
+    <TextView
+        android:id="@+id/texto_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.01"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_weight"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_weight"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_weigth" />
+
+        <EditText
+            android:id="@+id/text_number_weight"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/kg"
+            android:ems="10"/>
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_height"
+            android:layout_marginStart="5dp"
+
+            android:contentDescription="@string/image_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_height" />
+
+        <EditText
+            android:id="@+id/text_number_height"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/cm"
+            android:ems="10" />
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_year"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/image_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_calender" />
+
+        <EditText
+            android:id="@+id/text_number_year"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/year"
+            android:ems="10" />
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/image_gender"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/image_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_gender" />
+
+        <RadioGroup
+            android:id="@+id/radioSex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="80"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/female" />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:text="@string/male" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <Button
+            android:id="@+id/btn_calculate"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
+            android:textAlignment="gravity"
+            android:gravity="center"
+            android:text="@string/calculate" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PESO IDEAL</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ajustes</string>
+
+    <string name="kg">KG</string>
+    <string name="cm">CM</string>
+
+    <string name="calculate">Calcular</string>
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+    <string name="year">Edad</string>
+
+    <string name="image_weight">Peso</string>
+    <string name="image_height">Altura</string>
+    <string name="image_gender">Sexo</string>
+    <string name="image_year">Edad</string>
+
+
+
+    <string name="name">JEAN LUIS PADILLA SANTANA</string>
+    <string name="position">Certificacion ANDROID | Altice</string>
+</resources>
