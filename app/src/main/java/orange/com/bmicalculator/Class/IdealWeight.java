@@ -1,17 +1,12 @@
 package orange.com.bmicalculator.Class;
 
-import android.util.Log;
-
-/**
- * Created by Jean Luis on 5/26/2017.
- */
 
 public class IdealWeight {
 
-    private String percentagePI;
-    private String leanBodyMass;
-    private String obesity;
-    private String idealWeight;
+    public String percentagePI;
+    public String leanBodyMass;
+    public String obesity;
+    public String idealWeight;
 
     public String getObesity() {
         return obesity;

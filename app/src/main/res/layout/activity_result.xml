@@ -12,15 +12,15 @@
         android:layout_weight="1"
         android:textColor="#818c93"
         android:textStyle="bold"
-        android:textSize="30dp"
-        android:text="RESULTADOS"
+        android:textSize="30sp"
+        android:text="@string/result"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
         android:id="@+id/label_ideal_weight"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:text="PESO IDEAL:"
+        android:text="@string/ideal_weight"
         android:textColor="#FF1C6DA3"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.47"/>
@@ -28,7 +28,7 @@
         android:id="@+id/text_ideal_weight"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:text=""
         android:layout_marginTop="2dp"
         android:layout_gravity="center_horizontal"
@@ -38,14 +38,14 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:textColor="#FF1C6DA3"
-        android:text="PORCENTAJE DE PI"
+        android:text="@string/percentage_pi"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.43"/>
     <TextView
         android:id="@+id/text_pi_percentage"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:text=""
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"/>
@@ -55,14 +55,14 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:textColor="#FF1C6DA3"
-        android:text="MASA CORPORAL MAGRA"
+        android:text="@string/lean_body_mass"
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.32"/>
     <TextView
         android:id="@+id/text_lean_body_mass"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:text=""
         android:layout_gravity="center_horizontal"
         android:layout_weight="1"/>
@@ -71,7 +71,7 @@
         android:id="@+id/text_obesity"
         android:layout_width="match_parent"
         android:layout_height="2dp"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:background="#3b89be"
         android:textColor="#fff"
         android:text=""

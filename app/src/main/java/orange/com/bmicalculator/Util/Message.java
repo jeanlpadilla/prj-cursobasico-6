@@ -1,9 +1,5 @@
 package orange.com.bmicalculator.Util;
 
-/**
- * Created by Jean Luis on 5/27/2017.
- */
-
 
 public enum Message {
     male {

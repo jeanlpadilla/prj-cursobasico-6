@@ -23,4 +23,16 @@
 
     <string name="name">JEAN LUIS PADILLA SANTANA</string>
     <string name="position">Certificacion ANDROID | Altice</string>
+
+
+    <string name="result">RESULTADO</string>
+
+    <string name="ideal_weight">PESO IDEAL:</string>
+    <string name="ideal_weight2">PESO IDEAL</string>
+    <string name="percentage_pi">PORCENTAJE DE PI</string>
+
+    <string name="lean_body_mass">MASA CORPORAL MAGRA</string>
+    <string name="altice">Altice Certificacion</string>
+    <string name="version">Version 1.0</string>
+
 </resources>

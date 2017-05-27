@@ -1,25 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout app:layout_behavior="@string/appbar_scrolling_view_behavior" android:weightSum="1" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="1" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <LinearLayout android:weightSum="1" android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center_vertical"> </LinearLayout>
+    <LinearLayout android:weightSum="1"
+        android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="horizontal" android:gravity="center" android:layout_gravity="center_vertical"> </LinearLayout>
 
-    <ImageView android:layout_height="wrap_content" android:layout_width="wrap_content"
-        android:src="@drawable/splash_weight_1" android:paddingTop="10dp" android:paddingRight="20dp" android:paddingLeft="20dp" android:paddingBottom="20dp" android:foregroundGravity="center"
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/splash_weight_1"
+        android:contentDescription="@string/altice"
+        android:paddingTop="10dp" android:paddingRight="20dp"
+        android:paddingLeft="20dp" android:paddingBottom="20dp"
+        android:foregroundGravity="center"
         android:layout_marginTop="30dp" android:layout_centerHorizontal="true" android:layout_above="@+id/textMP" android:id="@+id/imageLogo"/>
 
     <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
         android:gravity="center" android:layout_centerHorizontal="true" android:id="@+id/textMP"
 
-        android:textStyle="bold" android:textSize="32dp" android:textColor="#FF1C6DA3" android:text="PESO IDEAL" android:maxLength="24" android:layout_centerVertical="true"/>
+        android:textStyle="bold" android:textSize="32sp" android:textColor="#FF1C6DA3"
+        android:text="@string/ideal_weight2" android:maxLength="24" android:layout_centerVertical="true"/>
 
     <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
         android:layout_centerHorizontal="true" android:id="@+id/textVersion" android:textStyle="bold"
-        android:textSize="16dp" android:textColor="#FF1C6DA3" android:text="Version 1.0" android:maxLength="24"
+        android:textSize="16sp"
+        android:textColor="#FF1C6DA3"
+        android:text="@string/version" android:maxLength="24"
         android:layout_below="@+id/textMP"/>
 
     <TextView android:layout_height="wrap_content" android:layout_width="match_parent"
         android:gravity="center" android:paddingBottom="20dp" android:id="@+id/textDeparment"
-        android:textStyle="bold" android:textSize="15dp" android:textColor="#FF1C6DA3" android:text="Altice Certificacion" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_alignParentBottom="true"/>
+        android:textStyle="bold" android:textSize="15sp"
+        android:textColor="#FF1C6DA3"
+        android:text="@string/altice"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:layout_alignParentBottom="true"/>
 
 
 
